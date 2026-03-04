@@ -5,12 +5,12 @@
 Last updated: 2026-03-03
 
 This repository is an internship practice project created by a beginner to demonstrate engineering progress. Some files are not provided due to the use of an internal platform and dataset.  
-This service is a lightweight HTTP inference server built with Flask and ONNX Runtime. It performs object detection on power-grid related images, focusing on detecting and localizing the defect **“missing insulation cover on the tension clamp”** (耐张线夹绝缘罩缺失), and returns a list of bounding boxes.
+This service is a lightweight HTTP inference server built with Flask and ONNX Runtime. It performs object detection on power-grid related images, focusing on detecting and localizing the defect “missing insulation cover on the tension clamp” (耐张线夹绝缘罩缺失), and returns a list of bounding boxes.
 
 ## 1. Task Goal
 
 - Input: one power-grid related image
-- Output: a list of detections for the defect **missing insulation cover on the tension clamp** (box coordinates, class, confidence)
+- Output: a list of detections for the defect missing insulation cover on the tension clamp (box coordinates, class, confidence)
 
 Default class:
 
